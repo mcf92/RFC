@@ -1,0 +1,30 @@
+{
+  "name": "RFC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcf92/RFC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcf92/RFC/issues"
+  },
+  "homepage": "https://github.com/mcf92/RFC#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "flexboxgrid": "^6.3.1",
+    "jquery": "^3.3.1",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "sass": "^1.17.3"
+  }
+}

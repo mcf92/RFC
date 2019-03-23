@@ -1,0 +1,67 @@
+.about-us--banner {
+  height: 100vh;
+  position: relative;
+  padding: 0 54px;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('source/img/about-us-banner.png');
+  background-size: cover;
+  .row {
+    height: 100%;
+    padding: 0 90px;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+  }
+}
+
+.about-us--description {
+  max-width: 740px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 0;
+  font-family: $font-family-lato;
+  .fas {
+    background: $gradient-icon;
+    font-size: $font-size-h2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &-title {
+    font-weight: bold;
+    color: $grey-light;
+    font-size: $font-size-h6;
+    text-transform: uppercase;
+    font-family: $font-family-PT-Sans;
+  }
+}
+
+.about-us--philoshophy {
+  background: $grey-background;
+  position: relative;
+  &-container {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 80px 0;
+  }
+  &-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+  }
+  &-title {
+    font-size: $font-size-h3;
+    font-family: $font-family-PT-Sans;
+  }
+  &-card {
+    font-size: $font-size-h6;
+    background: $white;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    img {
+      width: 100px;
+    }
+  }
+}

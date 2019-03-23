@@ -1,0 +1,15 @@
+//abstracts
+@import 'source/styles/abstracts/variables';
+
+//node_modules
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// base
+@import 'source/styles/base/typography';
+
+// custom
+@import 'source/styles/navbar';
+
+// layout
+@import 'source/styles/layout/footer';
+@import 'source/styles/layout/about_us';
