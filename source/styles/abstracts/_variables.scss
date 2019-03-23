@@ -17,7 +17,7 @@ $white: #FFF;
 $grey: #767676;
 $grey-light: #c3c3c3;
 $grey-background: #f9f9f9;
-$gradient-background: radial-gradient(circle at left bottom, #041c2b 0%, #0d466b 70%) no-repeat !important;
+$gradient-background: radial-gradient(circle at left bottom, $primary-color 0%, $secondary-color 70%) no-repeat !important;
 $gradient-icon: -webkit-linear-gradient($secondary-color, $primary-color);
 
 // Media Queries and grid settings
@@ -29,6 +29,7 @@ $screen-large:                    	992px!default;
 $screen-extra-large:              	2000px!default;
 
 // Typography
+$font-family-titles:                "Montserrat Alternates", sans-serif;
 $font-family-PT-Sans:               "PT Sans", sans-serif;
 $font-family-lato:                  "Lato", sans-serif;
 

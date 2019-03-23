@@ -6,6 +6,8 @@
 
 // base
 @import 'source/styles/base/typography';
+@import 'source/styles/base/button';
+@import 'source/styles/base/form';
 
 // custom
 @import 'source/styles/navbar';
@@ -13,3 +15,4 @@
 // layout
 @import 'source/styles/layout/footer';
 @import 'source/styles/layout/about_us';
+@import 'source/styles/layout/contact-us';

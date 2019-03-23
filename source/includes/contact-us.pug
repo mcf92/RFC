@@ -1,0 +1,25 @@
+.contact-us
+  .contact-us--container.row.middle-xs
+    .col-lg-6
+      p.contact-us--title.text-family--titles.text-transform--uppercase 
+        i.fas.fa-phone.pr-2
+        span Contactanos
+      h1.contact-us--title.text-family--titles.text-transform--uppercase Trabajemos 
+      h1.contact-us--title.text-family--titles.text-transform--uppercase Juntos
+    .col-lg-6
+      .contact-us--card
+        form#contact-form
+          .form-row
+            .col-md-12.margin--bottom-large.form-group
+              i.fas.fa-user
+              input.form-control#name(type='text' required='')
+              span.form-control-placeholder.text-color_white(for='name') Nombre
+            .col-md-12.margin--bottom-large.form-group
+              i.fas.fa-phone
+              input.form-control.is-valid#phone(type='number' required='')
+              span.form-control-placeholder.text-color_white(for='phone') Teléfono
+            .col-md-12.margin--bottom-large.form-group
+              i.fas.fa-envelope
+              input.form-control#email(type='email' data-parsley-trigger="change" required='')
+              span.form-control-placeholder.text-color_white(for='email') Email
+          button.btn.btn__color-secondary.mt-4 Enviar

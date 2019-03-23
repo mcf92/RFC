@@ -2,7 +2,7 @@
   height: 100vh;
   position: relative;
   padding: 0 54px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   background-image: url('source/img/about-us-banner.png');
   background-size: cover;
   .row {
@@ -10,6 +10,7 @@
     padding: 0 90px;
   }
   h1 {
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 25px;
     color: black;

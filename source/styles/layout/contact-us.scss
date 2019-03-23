@@ -1,0 +1,47 @@
+.contact-us {
+  background: $gradient-background;
+  &--container {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 80px 0;
+  }
+  &--title {
+    color: $white;
+  }
+  &--card {
+    background: $white;
+    padding: 20px;
+    border-radius: 4px;
+  }
+}
+
+input.form-control {
+    background-color: transparent;
+    border-bottom: 3px solid $primary-color !important;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    color: $dark;
+    font-weight: 100;
+    padding: 16px 30px;
+    height: 40px;
+    font-size: 14px;
+    font-family: $font-family-lato;
+
+    &:focus, &:active {
+      outline: none;
+      border-top: none !important;
+      border-left: none !important;
+      border-right: none !important;
+      box-shadow: none!important;
+    }
+  }
+
+  form {
+    max-width: 400px;
+    margin: 40px auto;
+    i {
+      position: absolute;
+      bottom: 12px;
+    }
+  }

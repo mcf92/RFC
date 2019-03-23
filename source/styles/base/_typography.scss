@@ -6,3 +6,15 @@
     text-align: left;
   }
 }
+
+.text-family {
+  &--titles {
+    font-family: $font-family-titles;
+  }
+}
+
+.text-transform {
+  &--uppercase {
+    text-transform: uppercase;
+  }
+}

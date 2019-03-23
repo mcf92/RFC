@@ -1,0 +1,18 @@
+.btn {
+  text-align: center;
+  border-radius: 22px;
+  padding: 12px 12px;
+  min-width: 150px;
+  border: none;
+  font-size: 12px;
+  &__color-secondary {
+    background: $secondary-color;
+    color: $white;
+    &:hover, &:focus {
+      background: $secondary-color-hover;
+      color: $white;
+      text-decoration: none;
+      transition: all .4s;
+    }
+  }
+}
