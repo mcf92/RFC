@@ -1,26 +1,18 @@
-section.about-us--banner
-  .row.middle-xs
-    .col-lg-6.col-md-6.col-sm-12.col-xs-12.pl-10
-      h1 Lorem ipsum dolor sit amet.
-      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-section.about-us--description.text-align--center
-  i.fas.fa-atom.pb-3
-  .about-us--description-title.pb-4 Lorem ipsum dolor sit amet.
-  .about-us--description-paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-section.about-us--philoshophy.text-align--center
-  img.about-us--philoshophy-bg(src="source/img/atom-bg.png")
-  .about-us--philoshophy-container.pl-5.pr-5
-    .about-us--philoshophy-title.pb-4 Lorem ipsum dolor sit amet.
-    .row
-      .col-lg-6.col-md-6.col-sm-12.col-xs-12.mb-4
-        .box-large.about-us--philoshophy-card.text-align--center
-          img(src="source/img/mission.png")
-          h4.pt-4 Misión
-          p Somos una institución ubicada en la región caribe que produce y suministra radiofármacos de uso rutinario por parte de los servicios de medicina nuclear, en cumplimiento con la normatividad nacional vigente, contribuyendo al logro de mejores diagnósticos y tratamientos que permiten mejorar la calidad de vida de los pacientes oncológicos en el país; buscando la alta satisfacción en todas sus partes interesadas, comprometidos con practicas amigables para el medio ambiente altamente eficientes y enfocadas a la disminución de riesgos.
-      .col-lg-6.col-md-6.col-sm-12.col-xs-12.mb-4
-        .box-large.about-us--philoshophy-card.text-align--center
-          img(src="source/img/vision.png")
-          h4.pt-4 Visión
-          p Para el año 2020 RADIOFARMACIA DEL CARIBE S.A.S busca posicionarse como la radio farmacia líder en la región Caribe en la producción y suministro de radiofármacos a los servicios de medicina nuclear, expandiendo sus actividades a Latinoamérica con la incorporación de la dosificación de yodo, con el cumplimiento de estándares de calidad basados en la Norma ISO:NTC:9001:2015.
-include ./source/includes/contact-us.pug
-include ./source/includes/footer.pug
+doctype html
+html
+  head
+    title= title
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="shortcut icon" href="source/img/phpThumb_generated_thumbnailico" type="image/x-icon")
+    link(rel='stylesheet', href='node_modules/bootstrap/dist/css/bootstrap.css')
+    link(rel="stylesheet" href="node_modules/flexboxgrid/dist/flexboxgrid.min.css" type="text/css")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous")
+    link(href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|PT+Sans:400,700,700i" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600,700" rel="stylesheet")
+    link(rel='stylesheet', href='index.scss')
+  body
+    include ./source/includes/navbar.pug
+    include ./source/includes/about-us.pug
+    include ./source/includes/contact-us.pug
+    include ./source/includes/footer.pug
+    script(src="index.js")

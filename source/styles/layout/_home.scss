@@ -1,0 +1,47 @@
+.home {
+  &__banner {
+    height: 100vh;
+    position: relative;
+    padding: 0 54px;
+    overflow: hidden;
+    &-container {
+      padding: 147px 15px 0 15px;
+      @media screen and (min-width: $screen-medium) {
+        padding: 0 15px
+      }
+    }
+    h1 {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 2em;
+      @media screen and (min-width: $screen-small) {
+        font-size: 3em;
+      }
+    }
+    p {
+      color: #37377c;
+    }
+    .row {
+      height: 100%;
+    }
+    &--img {
+      max-width: 65%;
+      z-index: 1;
+      margin: 0 auto;
+      @media screen and (min-width: $screen-medium) {
+        position: absolute;
+        right: 104px;
+        top: 100px;
+        max-width: 30%
+      }
+      @media screen and (min-width: $screen-small) {
+        max-width: 30%
+      }
+    }
+    &--bg-img {
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
