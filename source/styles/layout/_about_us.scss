@@ -43,6 +43,12 @@
     text-transform: uppercase;
     font-family: $font-family-PT-Sans;
   }
+  &-paragraph {
+    padding: 0 80px;
+    @media screen and (min-width: $screen-small) {
+      padding: 0;
+    }
+  }
 }
 
 .about-us--philoshophy {
