@@ -44,4 +44,28 @@
       bottom: 0;
     }
   }
+
+  &__values-card {
+    margin-top: 30px;
+    .card {
+      box-shadow: $shadow-card;
+      border: none;
+      padding: 20px;
+      p {
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    &--icon {
+      font-size: 24px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background: $gradient-icon;
+      color: $white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }

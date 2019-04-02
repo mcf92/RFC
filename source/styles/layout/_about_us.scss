@@ -30,19 +30,6 @@
   text-align: center;
   padding: 80px 0;
   font-family: $font-family-lato;
-  .fas {
-    background: $gradient-icon;
-    font-size: $font-size-h2;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  &-title {
-    font-weight: bold;
-    color: $grey-light;
-    font-size: $font-size-h6;
-    text-transform: uppercase;
-    font-family: $font-family-PT-Sans;
-  }
   &-paragraph {
     padding: 0 80px;
     @media screen and (min-width: $screen-small) {
@@ -66,10 +53,6 @@
     top: 0px;
     left: 0px;
     width: 250px;
-  }
-  &-title {
-    font-size: $font-size-h3;
-    font-family: $font-family-PT-Sans;
   }
   &-card {
     font-size: $font-size-h6;

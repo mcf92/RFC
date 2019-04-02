@@ -19,6 +19,7 @@ $grey-light: #c3c3c3;
 $grey-background: #f9f9f9;
 $gradient-background: radial-gradient(circle at left bottom, $primary-color 0%, $secondary-color 70%) no-repeat !important;
 $gradient-icon: -webkit-linear-gradient($secondary-color, $primary-color);
+$shadow-card: 0 10px 20px rgb(239, 234, 242), 0 6px 6px rgb(239, 234, 242);
 
 // Media Queries and grid settings
 
